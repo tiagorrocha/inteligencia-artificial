@@ -11,8 +11,6 @@ public abstract class Busca {
 
 	public abstract boolean buscarResultado(No no);
 
-	//public abstract int sizeFolhas();
-
 	protected void ehResultadoPaternal(List<No> caminho) {
 
 		String retorno = "";
@@ -26,9 +24,9 @@ public abstract class Busca {
 
 	public void exibirTextoResultado() {
 		if (this.textoResposta != null) {
-			System.out.println("O caminho percorrido ser·: " + this.textoResposta);
+			System.out.println("O caminho percorrido ser√°: " + this.textoResposta);
 		} else {
-			System.out.println("O valor " + this.valorBusca + " n„o foi encontrado.");
+			System.out.println("O valor " + this.valorBusca + " n√£o foi encontrado.");
 		}
 	}
 
